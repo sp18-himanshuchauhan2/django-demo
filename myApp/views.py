@@ -17,3 +17,6 @@ def index(request):
 
 def about(request):
     return HttpResponse("This is the about page of myApp!")
+
+def service(request):
+    return HttpResponse("This is the service page of myApp!")
