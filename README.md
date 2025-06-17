@@ -37,3 +37,6 @@
 1. git diff branch-name (to compare the changes between 2 branches)
 2. git merge branch-name
 3. Or we can simply create a pull request (PR) on github.
+
+## For pull 
+1. git pull origin main
