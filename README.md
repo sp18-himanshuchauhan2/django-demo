@@ -32,3 +32,8 @@
 2. git checkout branch-name (to switch branches)
 3. git checkout -b new-branch-name (to create new branch)
 4. git branch -d branch-name (to delete branch)
+
+## For merge the branches
+1. git diff branch-name (to compare the changes between 2 branches)
+2. git merge branch-name
+3. Or we can simply create a pull request (PR) on github.
