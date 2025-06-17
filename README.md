@@ -24,5 +24,11 @@
 2. git remote add origin <--url-->
 3. git remote -v (to verify the remote)
 4. git branch (to check the branch)
-5. git branch -M branch-name
+5. git branch -M branch-name (to rename the branch)
 6. git push origin main
+
+## For branches
+1. git branch
+2. git checkout branch-name (to switch branches)
+3. git checkout -b new-branch-name (to create new branch)
+4. git branch -d branch-name (to delete branch)
