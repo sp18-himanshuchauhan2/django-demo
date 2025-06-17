@@ -38,5 +38,5 @@
 2. git merge branch-name
 3. Or we can simply create a pull request (PR) on github.
 
-## For pull 
+## For pull (to fetch the content from remote repo to local repo)
 1. git pull origin main
