@@ -27,11 +27,20 @@
 5. git branch -M branch-name (to rename the branch)
 6. git push origin main
 
+## To see the commits
+1. git log
+2. git log -p -n (to see only n commits)
+
+## For undo commands
+1. git checkout <--file-name-->
+2. git checkout -f (for multiple files)
+
 ## For branches
 1. git branch
 2. git checkout branch-name (to switch branches)
-3. git checkout -b new-branch-name (to create new branch)
+3. git checkout -b new-branch-name (to create new branch & switch)
 4. git branch -d branch-name (to delete branch)
+5. git branch branch-name (to create a new branch)
 
 ## For merge the branches
 1. git diff branch-name (to compare the changes between 2 branches)
@@ -40,3 +49,7 @@
 
 ## For pull (to fetch the content from remote repo to local repo)
 1. git pull origin main
+
+## To check the difference in same file
+1. git diff             (working dir. & staging area)
+2. git diff --staged    (last commit & staging area)
