@@ -17,6 +17,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+admin.site.site_header = ".Django"  # Changes "Django administration"
+admin.site.site_title = "My Django Admin Site"           # Changes browser tab title
+admin.site.index_title = "My Django Admin"    # Changes heading on admin index page
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('myApp.urls')),

@@ -13,10 +13,16 @@ def index(request):
         HttpResponse: Rendered index page.
     """
     # return HttpResponse("Hello, this is the index page of myApp!")
-    return render(request, "index.html")
+    context = {
+        "variable": "HIMANSHU CHAUHAN"
+    }
+    return render(request, "first.html", context)
 
 def about(request):
     return HttpResponse("This is the about page of myApp!")
 
 def service(request):
     return HttpResponse("This is the service page of myApp!")
+
+def contact(request):
+    return HttpResponse("This is my contact details...")
