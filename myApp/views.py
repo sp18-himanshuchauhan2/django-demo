@@ -19,10 +19,12 @@ def index(request):
     return render(request, "first.html", context)
 
 def about(request):
-    return HttpResponse("This is the about page of myApp!")
+    # return HttpResponse("This is the about page of myApp!")
+    return render(request, "about.html")
 
 def service(request):
     return HttpResponse("This is the service page of myApp!")
 
 def contact(request):
-    return HttpResponse("This is my contact details...")
+    # return HttpResponse("This is my contact details...")
+    return render(request, "contact.html")
